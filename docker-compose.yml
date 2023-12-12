@@ -21,3 +21,5 @@ services:
       - airt-collection-db
     env_file:
       - .env
+    volumes:
+      - .:/app
